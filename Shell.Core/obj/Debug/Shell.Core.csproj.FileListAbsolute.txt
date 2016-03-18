@@ -1,0 +1,4 @@
+C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell.Core\bin\Debug\Shell.Core.dll
+C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell.Core\bin\Debug\Shell.Core.pdb
+C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell.Core\obj\Debug\Shell.Core.dll
+C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell.Core\obj\Debug\Shell.Core.pdb

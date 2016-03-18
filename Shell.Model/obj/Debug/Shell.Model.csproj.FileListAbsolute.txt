@@ -1,0 +1,4 @@
+C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell.Model\bin\Debug\Shell.Model.dll
+C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell.Model\bin\Debug\Shell.Model.pdb
+C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell.Model\obj\Debug\Shell.Model.dll
+C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell.Model\obj\Debug\Shell.Model.pdb
