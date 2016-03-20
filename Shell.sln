@@ -4,8 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell", "Shell\Shell.csproj", "{3C4FA588-B0AB-4658-93A7-A0253098493E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7F90915-3E41-4CED-BD7F-C5A3B14CAE4A} = {C7F90915-3E41-4CED-BD7F-C5A3B14CAE4A}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell.API", "Shell.API\Shell.API.csproj", "{49DB67A3-00BC-4938-BAEF-C6CA9B01452C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7F90915-3E41-4CED-BD7F-C5A3B14CAE4A} = {C7F90915-3E41-4CED-BD7F-C5A3B14CAE4A}
+		{8E1D8FE8-A376-4931-B14A-9FAF6A738300} = {8E1D8FE8-A376-4931-B14A-9FAF6A738300}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell.Model", "Shell.Model\Shell.Model.csproj", "{8E1D8FE8-A376-4931-B14A-9FAF6A738300}"
 EndProject

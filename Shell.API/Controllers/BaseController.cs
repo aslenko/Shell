@@ -1,4 +1,5 @@
-﻿using Shell.Model;
+﻿using Shell.API.Filters;
+using Shell.Model;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,6 +12,7 @@ using System.Web.Http.ModelBinding;
 
 namespace Shell.API.Controllers
 {
+    [AuthenticateApi]
     public abstract class BaseController : ApiController
     {
         #region Constructors

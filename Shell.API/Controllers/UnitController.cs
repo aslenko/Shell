@@ -20,13 +20,7 @@ namespace Shell.API.Controllers
 
         #endregion
 
-        #region Public Methods
-
-        // GET api/unit
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
+        #region Public Methods        
 
         /// <summary>
         /// GET .../unit/get
@@ -73,12 +67,6 @@ namespace Shell.API.Controllers
                 return CreateErrorResponse(x);
             }
         }      
-
-        // GET api/unit/5
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
 
         // POST api/values
         //public void Post([FromBody]string value)

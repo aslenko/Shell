@@ -134,6 +134,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\UnitController.cs" />
+    <Compile Include="Filters\AuthenticateApiAttribute.cs" />
     <Compile Include="Filters\CultureHandler.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -159,6 +160,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Shell.Core\Shell.Core.csproj">
+      <Project>{c7f90915-3e41-4ced-bd7f-c5a3b14cae4a}</Project>
+      <Name>Shell.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Shell.Model\Shell.Model.csproj">
       <Project>{8e1d8fe8-a376-4931-b14a-9faf6a738300}</Project>
       <Name>Shell.Model</Name>
