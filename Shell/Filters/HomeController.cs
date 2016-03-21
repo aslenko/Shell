@@ -10,13 +10,14 @@ namespace Shell.Controllers
     {
         public ActionResult Index()
         {
+            ViewData["Key"] = "XYZ";
             return View();
         }
 
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            
             return View();
         }
 

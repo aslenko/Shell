@@ -16,7 +16,7 @@ namespace Shell
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Shell", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

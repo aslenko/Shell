@@ -1,0 +1,37 @@
+﻿@model Shell.Models.LoginViewModel
+<div class="page-section" ng-controller="userCtrl" ng-init="initialize()">
+    <h3 class="hidden-xs">Sing In</h3>
+    <form action="~/user/signin" method="post" class="form-horizontal">
+        <div class="panel panel-default">
+            <div class="panel-heading">Please enter credentials</div></div>
+            <div class="panel-body">
+
+                @Html.AntiForgeryToken()
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Email, "Email Address", new { @class = "col-sm-2 control-label" })
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control k-textbox", autofocus = "autofocus" })
+                        @Html.ValidationMessageFor(m => m.Email)
+                        @Html.ValidationMessage("login-failure")
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label hidden-xs">&nbsp;</label>
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary active"><i class="fa fa-fw fa-lock"></i>&nbsp;Sign In</button>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label hidden-xs">&nbsp;</label>
+                    <div class="col-sm-10">
+                        <a href="https://google.com/" target="_blank">Contact the administrator to obtain login credentials</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</div>

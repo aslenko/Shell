@@ -10,4 +10,10 @@ namespace Shell.Core.Security
     {
         public const string MAC = "MAC";
     }
+
+    public static class HttpCookieNames
+    {      
+        public const string UserName = "UserName";
+        public const string UserToken = "UserToken";       
+    }
 }

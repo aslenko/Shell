@@ -30,3 +30,5 @@ C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell\bin\EntityFramework.Sql
 C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell\obj\Debug\Shell.csprojResolveAssemblyReference.cache
 C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell\obj\Debug\Shell.dll
 C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell\obj\Debug\Shell.pdb
+C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell\bin\Shell.Core.dll
+C:\Users\Andre\Desktop\Programming\ASP_Shell\Shell\Shell\bin\Shell.Core.pdb
